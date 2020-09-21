@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--reds-->
+
+    <!-- pinks -->
+
+    <!-- purples -->
+
+    <!-- deep purples -->
+
+    <!-- indigo -->
+
+    <!--blue-->
+
+    <!-- light blue-->
+
+    <!-- cyan -->
+
+    <!-- teal -->
+
+    <!-- green -->
+
+    <!--light green-->
+
+    <!-- lime-->
+
+    <!--yellow -->
+
+    <!--amber-->
+
+    <!--orange-->
+
+    <!--deep orange-->
+
+    <!--brown -->
+
+    <!--grey-->
+    <color name="md_white_1000">#ffffff</color>
+
+    <!--blue grey-->
+</resources>

@@ -1,0 +1,106 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_value_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0 °C"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_temperature"
+        app:layout_constraintStart_toStartOf="@+id/tv_temperature"
+        app:layout_constraintTop_toBottomOf="@+id/tv_temperature" />
+
+    <TextView
+        android:id="@+id/tv_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TEMPERATURE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--  Batas  -->
+
+    <TextView
+        android:id="@+id/tv_value_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0 %"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tv_humidity"
+        app:layout_constraintStart_toStartOf="@+id/tv_humidity"
+        app:layout_constraintTop_toBottomOf="@+id/tv_humidity" />
+
+    <TextView
+        android:id="@+id/tv_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HUMIDITY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_temperature"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_fan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="FAN"
+        app:layout_constraintStart_toStartOf="@+id/tv_temperature"
+        app:layout_constraintTop_toBottomOf="@+id/tv_value_temperature" />
+
+    <Switch
+        android:id="@+id/sw_fan"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_fan" />
+
+    <!--  Batas  -->
+
+    <TextView
+        android:id="@+id/tv_lamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="LAMP"
+        app:layout_constraintStart_toStartOf="@+id/tv_humidity"
+        app:layout_constraintTop_toBottomOf="@+id/tv_value_humidity" />
+
+    <Switch
+        android:id="@+id/sw_lamp"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        app:layout_constraintStart_toStartOf="@id/tv_lamp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_lamp" />
+
+    <ToggleButton
+        android:id="@+id/tb_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/selector"
+        android:textOff="OFF"
+        android:textOn="ON"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sw_lamp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

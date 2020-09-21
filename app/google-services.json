@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "920670233694",
+    "firebase_url": "https://kandang-iot.firebaseio.com",
+    "project_id": "kandang-iot",
+    "storage_bucket": "kandang-iot.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920670233694:android:9577f0befce1550a64c0cf",
+        "android_client_info": {
+          "package_name": "com.example.controllerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920670233694-57tf5kmpihektb9gf769u76sqvldphg4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIvef893xa6HkAOpu9cPq114P_B_qQQL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920670233694-57tf5kmpihektb9gf769u76sqvldphg4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
